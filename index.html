@@ -6,9 +6,12 @@
      <link rel="stylesheet" href="assets\bootstrap\css\bootstrap.css">
      <link rel="stylesheet" href="assets\bootstrap\css\bootstrap.min.css">
     <title>Skimmer - Web Design</title>
+    <meta name="description" content="">
 
 <meta name="geo.placename" content="Tzaneen">
 <meta name="geo.region" content="ZA">
+
+<meta property="og:type" content="website">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132768055-2"></script>
@@ -21,18 +24,28 @@
 </script>
 
 <link rel="stylesheet" href="assets\css\skimmer-body.css">
+
+<!-- fonts -->
+<!-- Nunito -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+<!-- Roboto -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light py-3">
       <div class="container-fluid">
-        <a class="navbar-brand px-5" href="#"><img src="assets\images\skimmer.jpg" alt="Logo" width="100" height="auto" class="d-inline-block align-text-top"></a>
+        <a class="navbar-brand navi-pic" href="#"><img src="assets\images\skimmer.jpg" alt="Logo" width="100" height="auto" class="d-inline-block align-text-top"></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navi">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -70,7 +83,7 @@
 
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
       <h1 class="display-4 fw-normal">Pricing</h1>
-      <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+      <p class="fs-5">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
     </div>
   </header>
 
@@ -84,7 +97,7 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title">R170<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
+              <li>Website</li>
               <li>2 GB of storage</li>
               <li>Email support</li>
               <li>Help center access</li>
@@ -118,10 +131,10 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title">R900<small class="text-muted fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
+              <li>Domain</li>
+              <li>Mobile-Friendly</li>
               <li>Phone and email support</li>
-              <li>Help center access</li>
+              <li>Unlimited Monthly Changes</li>
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-danger">Premium Option</button>
           </div>
@@ -143,7 +156,7 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row" class="text-start">Website</th>
+            <th scope="row" class="text-start">Mobile-Friendly Website</th>
             <td><svg class="bi" width="24" height="24"><i class="fa-solid fa-check"></i></svg></td>
             <td><svg class="bi" width="24" height="24"><i class="fa-solid fa-check"></i></svg></td>
             <td><svg class="bi" width="24" height="24"><i class="fa-solid fa-check"></i></svg></td>
