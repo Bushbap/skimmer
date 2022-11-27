@@ -15,7 +15,7 @@ a {
   height: 4px;
   bottom: 0;
   left: 0;
-  background-color: #880808;
+  background-color: #e50000;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.1s ease-in-out 0s;
@@ -50,4 +50,15 @@ ul.nav {
 .nav a:active::before {
   visibility: visible;
   transform: scaleX(1)
+}
+
+
+@media screen and  (max-width : 540px) {
+  .nav li {
+    padding: 0 2px;
+    margin: 7px 4px;
+  }
+  .nav a {
+    font-size: 16px;
+  }
 }
