@@ -1,10 +1,8 @@
-
-
 a {
   text-decoration: none;
   color: black;
   position: relative;
-  padding: 10px 0;
+  padding: 7px 0;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -60,5 +58,18 @@ ul.nav {
   }
   .nav a {
     font-size: 16px;
+    padding: 3px 0;
+  }
+  .nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e50000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.1s ease-in-out 0s;
   }
 }
